@@ -21,14 +21,14 @@ export default function App() {
     
     // <ThemeProvider>
     <>
-      
+      <SplashCursor />
       <Navbar 
        mobileMenuOpen={mobileMenuOpen}
        setMobileMenuOpen={setMobileMenuOpen}
        activeSection={activeSection}
        isScrolled={isScrolled} />
       <main>
-        <SplashCursor />
+        
         <HeroSection />
         <ServicesSection />
         <AboutSection />
